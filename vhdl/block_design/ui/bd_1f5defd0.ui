@@ -1,0 +1,71 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.19  2019-03-26 bk=1.5019 VDI=41 GEI=35 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 5 -x 1310 -y 860 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 5 -x 1310 -y 890 -defaultsOSRD
+preplace port btns_4bits -pg 1 -lvl 5 -x 1310 -y 760 -defaultsOSRD
+preplace port leds_4bits -pg 1 -lvl 5 -x 1310 -y 1110 -defaultsOSRD
+preplace port sws_4bits -pg 1 -lvl 5 -x 1310 -y 590 -defaultsOSRD
+preplace port LED6_B -pg 1 -lvl 5 -x 1310 -y 1260 -defaultsOSRD
+preplace port LED5_G -pg 1 -lvl 5 -x 1310 -y 1320 -defaultsOSRD
+preplace port LED5_R -pg 1 -lvl 5 -x 1310 -y 1290 -defaultsOSRD
+preplace port LED6_R -pg 1 -lvl 5 -x 1310 -y 1200 -defaultsOSRD
+preplace port LED6_G -pg 1 -lvl 5 -x 1310 -y 1230 -defaultsOSRD
+preplace port LED5_B -pg 1 -lvl 5 -x 1310 -y 1350 -defaultsOSRD
+preplace port BUZZ_R -pg 1 -lvl 5 -x 1310 -y 110 -defaultsOSRD
+preplace port BUZZ_L_N -pg 1 -lvl 5 -x 1310 -y 80 -defaultsOSRD
+preplace port BUZZ_L -pg 1 -lvl 5 -x 1310 -y 50 -defaultsOSRD
+preplace port BUZZ_R_N -pg 1 -lvl 5 -x 1310 -y 140 -defaultsOSRD
+preplace portBus SSD_OUTP -pg 1 -lvl 5 -x 1310 -y 970 -defaultsOSRD
+preplace inst AXI_RGB_PWM_0 -pg 1 -lvl 4 -x 1150 -y 1280 -defaultsOSRD
+preplace inst AXI_SSD_0 -pg 1 -lvl 4 -x 1150 -y 970 -defaultsOSRD
+preplace inst AXI_BUZZ_0 -pg 1 -lvl 4 -x 1150 -y 90 -defaultsOSRD
+preplace inst AXI_LFSR_0 -pg 1 -lvl 4 -x 1150 -y 240 -defaultsOSRD
+preplace inst axi_timer_0 -pg 1 -lvl 4 -x 1150 -y 410 -defaultsOSRD
+preplace inst ps7_0_axi_periph -pg 1 -lvl 3 -x 780 -y 610 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 1 -x 120 -y 930 -defaultsOSRD
+preplace inst btn_gpio -pg 1 -lvl 4 -x 1150 -y 760 -defaultsOSRD
+preplace inst led_gpio -pg 1 -lvl 4 -x 1150 -y 1110 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 2 -x 410 -y 920 -defaultsOSRD
+preplace inst rst_ps7_0_50M -pg 1 -lvl 2 -x 410 -y 710 -defaultsOSRD
+preplace inst sw_gpio -pg 1 -lvl 4 -x 1150 -y 600 -defaultsOSRD
+preplace netloc processing_system7_0_FCLK_CLK0 1 1 3 210 600 630 350 970
+preplace netloc rst_ps7_0_50M_peripheral_aresetn 1 2 2 620 340 980
+preplace netloc xlconcat_0_dout 1 1 1 N 930
+preplace netloc sw_gpio_ip2intc_irpt 1 0 5 20 1030 NJ 1030 NJ 1030 1000J 870 1280
+preplace netloc axi_timer_0_interrupt 1 0 5 20 810 NJ 810 610J 880 NJ 880 1290
+preplace netloc AXI_RGB_PWM_0_LED6_B 1 4 1 1280J 1260n
+preplace netloc AXI_RGB_PWM_0_LED5_G 1 4 1 1290J 1310n
+preplace netloc AXI_RGB_PWM_0_LED5_R 1 4 1 NJ 1290
+preplace netloc AXI_RGB_PWM_0_LED6_R 1 4 1 1280J 1200n
+preplace netloc AXI_RGB_PWM_0_LED6_G 1 4 1 1290J 1230n
+preplace netloc AXI_RGB_PWM_0_LED5_B 1 4 1 1280J 1330n
+preplace netloc AXI_SSD_0_SSD_OUTP 1 4 1 NJ 970
+preplace netloc AXI_BUZZ_0_BUZZ_R 1 4 1 1290J 100n
+preplace netloc AXI_BUZZ_0_BUZZ_L_N 1 4 1 NJ 80
+preplace netloc AXI_BUZZ_0_BUZZ_L 1 4 1 1290J 50n
+preplace netloc AXI_BUZZ_0_BUZZ_R_N 1 4 1 1290J 120n
+preplace netloc rst_ps7_0_50M_interconnect_aresetn 1 2 1 610 450n
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 1 2 220 610 600
+preplace netloc ps7_0_axi_periph_M07_AXI 1 3 1 920 70n
+preplace netloc ps7_0_axi_periph_M04_AXI 1 3 1 950 360n
+preplace netloc processing_system7_0_DDR 1 2 3 NJ 870 990J 860 NJ
+preplace netloc processing_system7_0_FIXED_IO 1 2 3 NJ 890 NJ 890 NJ
+preplace netloc ps7_0_axi_periph_M05_AXI 1 3 1 940 220n
+preplace netloc ps7_0_axi_periph_M00_AXI 1 3 1 960 540n
+preplace netloc ps7_0_axi_periph_M02_AXI 1 3 1 N 580
+preplace netloc processing_system7_0_M_AXI_GP0 1 2 1 640 410n
+preplace netloc ps7_0_axi_periph_M01_AXI 1 3 1 990 560n
+preplace netloc ps7_0_axi_periph_M06_AXI 1 3 1 950 660n
+preplace netloc ps7_0_axi_periph_M03_AXI 1 3 1 930 600n
+preplace netloc btn_gpio_GPIO 1 4 1 NJ 760
+preplace netloc led_gpio_GPIO 1 4 1 NJ 1110
+preplace netloc sw_gpio_GPIO 1 4 1 NJ 590
+levelinfo -pg 1 0 120 410 780 1150 1310
+pagesize -pg 1 -db -bbox -sgen 0 0 1460 1390
+"
+}
+{
+   "da_board_cnt":"3"
+}
