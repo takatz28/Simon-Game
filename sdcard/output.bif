@@ -1,0 +1,7 @@
+//arch = zynq; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader]C:\Projects\Zybo\2018.2\SimonSays\FSBL.elf
+	C:\Projects\Zybo\2018.2\SimonSays\SimonSays.sdk\design_1_wrapper_hw_platform_0\design_1_wrapper.bit
+	C:\Projects\Zybo\2018.2\SimonSays\SimonSays.sdk\test\Debug\test.elf
+}
