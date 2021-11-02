@@ -1,6 +1,6 @@
 # Simon-Game
 
-This project is an implementation of the game "Simon" using both VHDL and Verilog. 
+This project is an implementation of the game "Simon" using the Zybo Z7-20 development board. Written in both VHDL and Verilog, the project features buttons, lights, and sounds that emulates the experience of the actual Simon game.
 
 
 ## Features
