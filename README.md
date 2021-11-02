@@ -12,11 +12,16 @@ This project is an implementation of the game "Simon" using the Zybo Z7-20 devel
 * More than _500,000_ unique sequence combinations for a fair gameplay.
 
 ## Requirements
-* Software
+* _Software_
   * Vivado Design Suite 2019.1
-* Hardware
+* _Hardware_
   * Zybo Z7-20 Zynq-7000 Development Board
-* Peripherals
+* _Peripherals_
   * PMOD seven-segment display (SSD)
   * Two passive buzzers
   * microSD card with less than 16GB capacity (optional)
+  
+## Instructions
+
+
+## Notes
