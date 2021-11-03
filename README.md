@@ -57,4 +57,10 @@ Language | C
 </details>
 
 
-## Notes
+
+
+[Vivado]:
+
+[Zybo]:
+
+[PMOD]:
