@@ -44,7 +44,7 @@ Field | Value
 --- | :---:
 Project Name | "Your preferred name"
 OS Platform | Standalone
-Hardware Platform | test_wrapper_hw_platform_0 
+Hardware Platform | design_1_wrapper_hw_platform_0 
 Processor | ps7_cortex a9_0
 Language | C
 
