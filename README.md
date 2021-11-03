@@ -25,6 +25,7 @@ This project is an implementation of the game "Simon" using the Zybo Z7-20 devel
 <details><summary>To boot Simon through the SD card:</summary>
 </details>
 <details><summary>To load the project:</summary>
+
 2. Open Vivado 2019.1.
 3. Using the tcl console, type the following:
 ```tcl
