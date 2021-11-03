@@ -51,7 +51,7 @@ Language | C
 9. Click on Next, select the _Empty_ _Application_ template, then click Finish.
 10. Copy the contents of `sdk_files` into the `src` folder under "Project Name". 
 11. Under Project Explorer, right-click on the project folder, click on _C/C++_ _Build_ _Settings_.
-12. Under _Libraries_, click on *add*, then type `m`.
+12. Under _Libraries_, click on *Add*, then type `m`.
 13. Program the FPGA.
 14. Right-click on the project folder, click on _Run_ _As_ &gt; _Launch_ _On_ _Hardware_ (GDB).
 </details>
