@@ -48,9 +48,10 @@ Hardware Platform | test_wrapper_hw_platform_0
 Processor | ps7_cortex a9_0
 Language | C
 
-10. Click on Next, select the _Empty_ _Application_ template, then click Finish.
-11. Copy the contents of `sdk_files` folder into the `src` folder of your 
-12. Run the _HOMeR_ app as described in the *Setup* section.
+9. Click on Next, select the _Empty_ _Application_ template, then click Finish.
+10. Copy the contents of `sdk_files` into the `src` folder under "Project Name". 
+11. Program the FPGA.
+12. Under Project Explorer, right-click on the project folder, click on _Run_ _As_ &gt; _Launch_ _On_ _Hardware_ (GDB).
 </details>
 
 
