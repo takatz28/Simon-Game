@@ -26,14 +26,15 @@ This project is an implementation of the game "Simon" using the Zybo Z7-20 devel
 </details>
 <details><summary>To load the project:</summary>
 
-2. Open Vivado 2019.1.
-3. Using the tcl console, type the following:
+1. Open Vivado 2019.1.
+2. Using the tcl console, type the following:
 ```tcl
 cd <change to extracted_folder>/<verilog or vhdl>
 source ./Simon_VHDL.tcl # if using the VHDL IPs, or
 source ./Simon_Verilog.tcl # if using the Verilog IPs
 ```
-4. Create a new HDL wrapper for the block design, then generate the bitstream.
+3. Create a new HDL wrapper for the block design.
+4. Run synthesis and implementation, then generate the bitstream.
 5. Go to File &gt; Export &gt; Export Hardware. Make sure that the "Include Bitstream" box is marked.
 6. Go to File &gt; Launch SDK.
 7. Once the SDK is launched, go to File &gt; New &gt; Application Project.
