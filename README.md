@@ -57,12 +57,9 @@ Language | C
 </details>
 
 
-
-
-
-#  
 [Vivado]:
-
+https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vivado-design-tools/archive.html
 [Zybo]:
-
+https://digilent.com/shop/zybo-z7-zynq-7000-arm-fpga-soc-development-board/
 [PMOD]:
+https://digilent.com/reference/pmod/pmodssd/start
