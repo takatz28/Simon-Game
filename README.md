@@ -21,7 +21,7 @@ This project is an implementation of the game "Simon" using the Zybo Z7-20 devel
   * Two passive buzzers
   * microSD card with less than 16GB capacity (optional)
   
-## Instructions
+## [Instructions]
 <details><summary>To boot Simon through the SD card:</summary>
 </details>
 <details><summary>To load the project:</summary>
@@ -63,3 +63,5 @@ https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav
 https://digilent.com/shop/zybo-z7-zynq-7000-arm-fpga-soc-development-board/
 [PMOD]:
 https://digilent.com/reference/pmod/pmodssd/start
+[Instructions]:
+https://github.com/takatz28/Simon-Game/blob/main/docs/Simon_InstructionManual.pdf
