@@ -160,8 +160,6 @@ void simonOnOff(void *InstancePtr)
 		else
 		{
 			level = 1;
-//			level = 31;
-//			led_delay = 15450000;
 			sequenceGenerator();
 			SIMON_ON = true;
 		}
@@ -345,8 +343,6 @@ static void simonGame(void *baseaddr_p)
 	}
 	else if (!SIMON_ON)
 	{
-//		level = 1;
-//		led_delay = LED_DELAY_MAX;
 		*(baseaddr_ssd + 0) = 0x0000000DD;
 		XGpio_DiscreteWrite(&LEDInst, GPIO_CH, 0x0);
 		while(XGpio_DiscreteRead(&SWInst, GPIO_CH) == 0x0)
