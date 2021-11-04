@@ -27,7 +27,7 @@ This project is an implementation of the game "Simon" using the Zybo Z7-20 devel
 ## [Instructions]
 <details><summary>To boot Simon through the SD card:</summary>
 
-Once the source files are extracted, copy the contents of the ‘sdcard’ folder in the microSD card. Afterwards, insert it into the port underneath the Zybo board. Before turning the board on, make sure that the JP5 jumper is set to SD. When the board is finally powered on, the game loads into idle mode.
+Once the source files are extracted, copy the contents of the `sdcard` folder in the microSD card. Afterwards, insert it into the port underneath the Zybo board. Before turning the board on, make sure that the JP5 jumper is set to SD. When the board is finally powered on, the game loads into idle mode.
 </details>
 <details><summary>To load the project:</summary>
 
